@@ -5,7 +5,9 @@
 # Revised on: February 27, 2023
 ########################################################################################################################
 # path
-path = {'Main': '/Users/cjaunin2/PycharmProjects/pythonProject'}
+import os
+
+path = {'Main': os.getcwd()}
 path.update({'Code': path.get('Main') + '/Code',
              'Inputs': path.get('Main') + '/Inputs',
              'Outputs': path.get('Main') + '/Outputs'})
